@@ -8,7 +8,7 @@ def game_results(user, comp):
          (user== "water" and comp == "gun"):
          return "You Win!"
     else:
-        return "You Loose!"
+        return "You Lose!"
     
 choices = ["snake", "water", "gun"]
 comp_choice = random.choice(choices).lower()
